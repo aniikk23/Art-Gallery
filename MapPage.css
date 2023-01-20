@@ -1,0 +1,243 @@
+body{
+    margin: 0%;
+}
+.header{
+    height:516px;
+}
+.container{
+    display: flex;
+    margin-top: -520px;
+}
+.map{
+    z-index: 1;
+    margin-top: -84px;
+    margin-left: -420px;
+    
+}
+.button1{
+    width: 260px;
+    height: 72px; 
+    margin-top: 0px;
+    background: linear-gradient(-90deg, black 80%,#D5966C 20%) ;
+    border: none;
+    margin-left: 0px;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    z-index: 2;
+}
+.button1:hover{
+    background: linear-gradient(-90deg, #D5966C 80%, black 20%);
+
+}
+.BackToHome-txt{
+    font-family: 'Outfit';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 2.3px;
+    color: white;
+    margin-left: 24px;
+    margin-top: 24px;
+    width: 137px;
+    height: 24px;
+}
+.arr2{
+    width: 8px;
+    height: 24px;
+    margin-top: 22px;
+    margin-left: 15px;
+
+}
+.black{
+    width: 375px;
+    height: 493px;
+    background-color: #151515;
+    margin-top: -48px;
+}
+.txt1{
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    color: white;
+    margin-left: 16px;
+    padding-top: 48px;
+    width: 343px;
+    height: 45px;
+}
+.txt2{
+    height: 32px;
+    width: 343px;
+    font-family: 'Big Shoulders Display';
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 900;
+    color:#D5966C;
+    margin-left: 16px;
+    margin-top: 48px;
+}
+.txt3{
+    margin-top: 20px;
+    margin-left: 16px;
+    font-family: 'Outfit';
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+    font-weight:300;
+    font-weight: lighter;
+    width: 343px;
+}
+.txt4{
+    margin-top: 20px;
+    margin-left: 16px;
+    font-family: 'Outfit';
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+    font-weight:300;
+    font-weight: lighter;
+    width: 343px;
+}
+.orange{
+    width: 375px;
+    height: 336px;
+    background-color: #D5966C;
+}
+.logo{
+    margin-top: 48px;
+    margin-left: 32px;
+    width: 110px;
+    height: 40px;
+}
+.txt5{
+    margin-top: 38px;
+    margin-left: 32px;
+    font-family: 'Outfit';
+    font-size: 16px;
+    line-height: 26px;
+    color: #151515;
+    font-weight:300;
+    font-weight: lighter;
+    width: 311px;
+}
+.container2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 32px;
+    margin-top: 38px;
+    width: 100px;
+}
+.icon{
+    filter: invert(100%);
+    cursor: pointer;
+}
+.icon:hover{
+    filter: invert(0%);
+
+}
+@media screen and (min-width:376px){
+    .map{
+        margin-top: -0.5px;
+        margin-left: -246px;
+        height: 600px;
+    }
+    .button1{
+        margin-left: 39px;
+        margin-top: -75px;
+        
+    }
+    .black{
+        width: 768px;
+        height: 436px;
+        margin-top: 80px;
+    }
+    .txt1{
+        width: 123px;
+        height: 100px;
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 50px;
+        position: absolute;
+        margin-left: 39px;
+        margin-top: 80px;
+    }
+    .txt2{
+        position: absolute;
+        margin-left: 330px;
+        top: 620px;
+    }
+    .txt3{
+        position: absolute;
+        margin-left: 330px;
+        top: 700px;
+    }
+    .txt4{
+        position: absolute;
+        margin-left: 330px;
+        top: 800px;
+    }
+    .orange{
+        width: 768px;
+        height: 216px;
+    }
+    .logo{
+        margin-top: 56px;
+        margin-left: 39px;
+    }
+    .txt5{
+        width: 281px;
+        height: 104px;
+        margin-left: 214px;
+        margin-top: -55px;
+    }
+    .container2{
+        margin-left: 628px;
+        margin-top: -140px;
+    }
+}
+@media screen and (min-width:769px) {
+    .map{
+        max-width: 1440px;
+        margin-left: 0px;
+        top:-40px;
+    }
+    .button1{
+        margin-left: 156px;
+        margin-top: -89px;
+    }
+    .black{
+        width: 1440px;
+        height: 548px;
+
+    }
+    .txt1{
+        left: 200px;
+        top: 620px;
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .txt2{
+        left: 490px;
+    }
+    .txt3{
+        left: 490px;
+    }
+    .txt4{
+        left: 490px;
+    }
+    .orange{
+        width: 1440px;
+        height: 244px;
+    }
+    .logo{
+        margin-top: 80px;
+        margin-left: 165px;
+    }
+    .txt5{
+        margin-left: 465px;
+    }
+    .container2{
+        margin-left: 1175px;
+    }
+}
