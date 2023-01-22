@@ -198,7 +198,7 @@ body{
     .button1{
         position: absolute;
         margin-left: 389px;
-        margin-top: 483px;
+        top: 483px;
     }
     .item4{
         width: 398px;
@@ -303,7 +303,7 @@ body{
         margin-left: 925px;
     }
     .button1{
-        margin-top: 414px;
+        top: 414px;
         margin-left: 925px;
     }
     .item5{
